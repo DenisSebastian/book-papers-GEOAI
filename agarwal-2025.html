@@ -324,14 +324,14 @@ Supporting the health and well-being of dynamic populations around the world req
 </blockquote>
 <blockquote class="blockquote">
 <p><strong>Traducción al español:</strong><br>
-Apoyar la salud y el bienestar de poblaciones dinámicas exige comprender y razonar sobre relaciones complejas entre el comportamiento humano y los contextos locales. Esto incluye identificar poblaciones en mayor riesgo y orientar recursos limitados. Los enfoques tradicionales suelen requerir <em>features</em> y modelos específicos por tarea para representar comportamiento humano y entorno natural/ construido, lo que dificulta su adaptación a tareas nuevas o afines. Para abordarlo, se introduce el <strong>Population Dynamics Foundation Model (PDFM)</strong>, que busca capturar relaciones entre diversas modalidades de datos y es aplicable a un amplio rango de tareas geoespaciales. Primero, se construye un conjunto geo‑indexado para códigos postales y condados de EE. UU., con información agregada rica sobre comportamiento humano (mapas, afluencia/“busyness”, tendencias de búsqueda agregadas) y factores ambientales (clima y calidad del aire). Luego, se modelan estos datos y las relaciones complejas entre lugares mediante una red neuronal de grafos, produciendo <em>embeddings</em> adaptables a muchas tareas con modelos sencillos. La eficacia se evalúa con 27 tareas en tres dominios: indicadores de salud, factores socioeconómicos y mediciones ambientales. El enfoque logra <em>state‑of‑the‑art</em> (SoTA) en interpolación para todas las tareas, superando codificadores basados en satélite e imágenes geolocalizadas; y alcanza SoTA en extrapolación y super‑resolución para 25 de 27 tareas. Además, se muestra que PDFM puede combinarse con el modelo fundacional de pronóstico TimesFM para predecir desempleo y pobreza, superando a un pronóstico totalmente supervisado. Se liberan <em>embeddings</em> y código de ejemplo. En síntesis, se demuestra un enfoque general para modelado geoespacial crítico para entender la dinámica poblacional, aprovechando conjuntos de datos complementarios, globalmente disponibles, fácilmente adaptables a tareas inéditas.</p>
+Apoyar la salud y el bienestar de poblaciones dinámicas exige comprender y razonar sobre relaciones complejas entre el comportamiento humano y los contextos locales. Esto incluye identificar poblaciones en mayor riesgo y orientar recursos limitados. Los enfoques tradicionales suelen requerir <em>features</em> y modelos específicos por tarea para representar comportamiento humano y entorno natural/ construido, lo que dificulta su adaptación a tareas nuevas o afines. Para abordarlo, se introduce el <strong>Population Dynamics Foundation Model (PDFM)</strong>, que busca capturar relaciones entre diversas modalidades de datos y es aplicable a un amplio rango de tareas geoespaciales. Primero, se construye un conjunto geo‑indexado para códigos postales y condados de EE.UU., con información agregada rica sobre comportamiento humano (mapas, afluencia/“busyness”, tendencias de búsqueda agregadas) y factores ambientales (clima y calidad del aire). Luego, se modelan estos datos y las relaciones complejas entre lugares mediante una red neuronal de grafos, produciendo <em>embeddings</em> adaptables a muchas tareas con modelos sencillos. La eficacia se evalúa con 27 tareas en tres dominios: indicadores de salud, factores socioeconómicos y mediciones ambientales. El enfoque logra <em>state‑of‑the‑art</em> (SoTA) en interpolación para todas las tareas, superando codificadores basados en satélite e imágenes geolocalizadas; y alcanza SoTA en extrapolación y super‑resolución para 25 de 27 tareas. Además, se muestra que PDFM puede combinarse con el modelo fundacional de pronóstico TimesFM para predecir desempleo y pobreza, superando a un pronóstico totalmente supervisado. Se liberan <em>embeddings</em> y código de ejemplo. En síntesis, se demuestra un enfoque general para modelado geoespacial crítico para entender la dinámica poblacional, aprovechando conjuntos de datos complementarios, globalmente disponibles, fácilmente adaptables a tareas inéditas.</p>
 </blockquote>
 </section>
 <section id="preguntas-de-investigación-hipótesis" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="preguntas-de-investigación-hipótesis"><span class="header-section-number">5.3</span> Preguntas de Investigación / Hipótesis</h2>
 <blockquote class="blockquote">
 <ul>
-<li>¿Puede un modelo fundacional geoespacial, basado en GNN y datos multimodales, generar <em>embeddings</em> generales que superen a codificadores de localización existentes (p. ej., SatCLIP/GeoCLIP) en interpolación, extrapolación y super‑resolución? <em>(inferida)</em><br>
+<li>¿Puede un modelo fundacional geoespacial, basado en GNN y datos multimodales, generar <em>embeddings</em> generales que superen a codificadores de localización existentes (p.ej., SatCLIP/GeoCLIP) en interpolación, extrapolación y super‑resolución? <em>(inferida)</em><br>
 </li>
 <li>¿Pueden estos <em>embeddings</em> mejorar pronósticos univariados (TimesFM) de indicadores socioeconómicos (desempleo, pobreza) mediante una capa adaptadora simple? <em>(inferida)</em></li>
 </ul>
@@ -370,7 +370,7 @@ Apoyar la salud y el bienestar de poblaciones dinámicas exige comprender y razo
 </section>
 <section id="datos" class="level3" data-number="5.4.3">
 <h3 data-number="5.4.3" class="anchored" data-anchor-id="datos"><span class="header-section-number">5.4.3</span> Datos</h3>
-<p>El estudio integra <strong>cinco fuentes principales</strong> a nivel <strong>código postal y condado</strong> en la <strong>CONUS</strong> (EE. UU. continental).</p>
+<p>El estudio integra <strong>cinco fuentes principales</strong> a nivel <strong>código postal y condado</strong> en la <strong>CONUS</strong> (EE.UU. continental).</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -444,7 +444,7 @@ Apoyar la salud y el bienestar de poblaciones dinámicas exige comprender y razo
 </ul>
 <p><strong>Datos Fase 2</strong></p>
 <ul>
-<li>Etiquetas <em>downstream</em> provienen de <strong>Data Commons / CDC PLACES (2022)</strong> y catálogos (p. ej., <em>night lights</em>, elevación).</li>
+<li>Etiquetas <em>downstream</em> provienen de <strong>Data Commons / CDC PLACES (2022)</strong> y catálogos (p.ej., <em>night lights</em>, elevación).</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -584,7 +584,7 @@ Apoyar la salud y el bienestar de poblaciones dinámicas exige comprender y razo
 <ul>
 <li>Desalineación temporal de fuentes.<br>
 </li>
-<li>Alcance geográfico limitado a EE. UU.<br>
+<li>Alcance geográfico limitado a EE.UU.<br>
 </li>
 <li>Embeddings estáticos (no dinámicos).<br>
 </li>
@@ -670,7 +670,7 @@ Apoyar la salud y el bienestar de poblaciones dinámicas exige comprender y razo
 </tr>
 <tr class="even">
 <td><strong>Generalización geográfica</strong></td>
-<td>Media (foco en EE. UU.)</td>
+<td>Media (foco en EE.UU.)</td>
 </tr>
 <tr class="odd">
 <td><strong>Transparencia/interpretabilidad</strong></td>
