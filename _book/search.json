@@ -843,7 +843,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Agarwal, Mohit, Mimi Sun, Chaitanya Kamath, Arbaaz Muslim, Prithul\nSarker, Joydeep Paul, Hector Yee, et al. 2024. “General Geospatial\nInference with a Population Dynamics Foundation Model.” arXiv\nPreprint arXiv:2411.07207.\n\n\nBrown, Christopher F, Michal R Kazmierski, Valerie J Pasquarella,\nWilliam J Rucklidge, Masha Samsikova, Chenhui Zhang, Evan Shelhamer, et\nal. 2025. “AlphaEarth Foundations: An Embedding Field Model for\nAccurate and Efficient Global Mapping from Sparse Label Data.”\narXiv Preprint arXiv:2507.22291.\n\n\nFang, Heng, Adam J. Stewart, Isaac Corley, Xiao Xiang Zhu, and Hossein\nAzizpour. 2026. “Earth Embeddings as Products: Taxonomy,\nEcosystem, and Standardized Access.” https://arxiv.org/abs/2601.13134.\n\n\nFleischmann, Martin, Krasen Samardzhiev, Anna Brázdová, Daniela\nDančejová, and Lisa Winkler. 2025. “The Hierarchical Morphotope\nClassification: A Theory-Driven Framework for Large-Scale Analysis of\nBuilt Form.” https://arxiv.org/abs/2509.10083.\n\n\nHan, Jindong, Yansong Ning, Zirui Yuan, Hang Ni, Fan Liu, Tengfei Lyu,\nand Hao Liu. 2025. “Large Language Model Powered Intelligent Urban\nAgents: Concepts, Capabilities, and Applications.” arXiv\nPreprint arXiv:2507.00914.\n\n\nReza, Muhammad Ashar, Aaditya Bisaria, S Advaitha, Alekhya Ponnekanti,\nand Arti Arya. 2025. “CriX: Intersection of Crime, Demographics\nand Explainable AI.”",
+    "text": "Agarwal, Mohit, Mimi Sun, Chaitanya Kamath, Arbaaz Muslim, Prithul\nSarker, Joydeep Paul, Hector Yee, et al. 2024. “General Geospatial\nInference with a Population Dynamics Foundation Model.” arXiv\nPreprint arXiv:2411.07207.\n\n\nBrown, Christopher F, Michal R Kazmierski, Valerie J Pasquarella,\nWilliam J Rucklidge, Masha Samsikova, Chenhui Zhang, Evan Shelhamer, et\nal. 2025. “AlphaEarth Foundations: An Embedding Field Model for\nAccurate and Efficient Global Mapping from Sparse Label Data.”\narXiv Preprint arXiv:2507.22291.\n\n\nFang, Heng, Adam J. Stewart, Isaac Corley, Xiao Xiang Zhu, and Hossein\nAzizpour. 2026. “Earth Embeddings as Products: Taxonomy,\nEcosystem, and Standardized Access.” https://arxiv.org/abs/2601.13134.\n\n\nFleischmann, Martin, Krasen Samardzhiev, Anna Brázdová, Daniela\nDančejová, and Lisa Winkler. 2025. “The Hierarchical Morphotope\nClassification: A Theory-Driven Framework for Large-Scale Analysis of\nBuilt Form.” https://arxiv.org/abs/2509.10083.\n\n\nHan, Jindong, Yansong Ning, Zirui Yuan, Hang Ni, Fan Liu, Tengfei Lyu,\nand Hao Liu. 2025. “Large Language Model Powered Intelligent Urban\nAgents: Concepts, Capabilities, and Applications.” arXiv\nPreprint arXiv:2507.00914.\n\n\nRen, Donghao, Fred Hohman, and Dominik Moritz. 2025. “A Scalable\nApproach to Clustering Embedding Projections.” arXiv Preprint\narXiv:2504.07285.\n\n\nReza, Muhammad Ashar, Aaditya Bisaria, S Advaitha, Alekhya Ponnekanti,\nand Arti Arya. 2025. “CriX: Intersection of Crime, Demographics\nand Explainable AI.”",
     "crumbs": [
       "References"
     ]
@@ -1000,6 +1000,116 @@
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "ren-2025.html",
+    "href": "ren-2025.html",
+    "title": "9  Embeddings Atlas",
+    "section": "",
+    "text": "9.1 Información Básica",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Embeddings Atlas</span>"
+    ]
+  },
+  {
+    "objectID": "ren-2025.html#información-básica",
+    "href": "ren-2025.html#información-básica",
+    "title": "9  Embeddings Atlas",
+    "section": "",
+    "text": "Elemento\nDetalle\n\n\n\n\nReferencia corta\nRen, Hohman, and Moritz (2025) — Clustering Embedding Projections\n\n\nTítulo completo\nA Scalable Approach to Clustering Embedding Projections\n\n\nRevista / Volumen / DOI\narXiv:2504.07285v2 (16 May 2025). DOI: N/A\n\n\nTemática\nVisualización de embeddings; clustering basado en densidad en 2D; escalabilidad para proyecciones (UMAP/t-SNE/PCA)\n\n\nContexto / Problema\nEn visualizaciones de proyecciones de embeddings (scatterplots masivos), la interpretación requiere etiquetar y resumir “regiones” o clusters. Los métodos típicos (DBSCAN/Mean Shift, etc.) operan sobre puntos y se vuelven costosos a gran escala; además pueden producir clusters que se solapan al proyectar desde alta dimensión. El paper propone clusterizar sobre un mapa de densidad 2D (KDE) en lugar de sobre los puntos.\n\n\nKeywords\nclustering; density data; embedding projections; kernel density estimation; UMAP; visualization\n\n\nCode\nhttps://github.com/apple/embedding-atlas",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Embeddings Atlas</span>"
+    ]
+  },
+  {
+    "objectID": "ren-2025.html#abstract",
+    "href": "ren-2025.html#abstract",
+    "title": "9  Embeddings Atlas",
+    "section": "9.2 Abstract",
+    "text": "9.2 Abstract\n\nOriginal:\nInteractive visualization of embedding projections is a useful technique for understanding data and evaluating machine learning models. Labeling data within these visualizations is critical for interpretation, as labels provide an overview of the projection and guide user navigation. However, most methods for producing labels require clustering the points, which can be computationally expensive as the number of points grows. In this paper, we describe an efficient clustering approach using kernel density estimation in the projected 2D space instead of points. This algorithm can produce high-quality cluster regions from a 2D density map in a few hundred milliseconds, orders of magnitude faster than current approaches. We contribute the design of the algorithm, benchmarks, and applications that demonstrate the utility of the algorithm, including labeling and summarization.\n\n\nTraducción al español:\nLa visualización interactiva de proyecciones de embeddings es una técnica útil para comprender datos y evaluar modelos de aprendizaje automático. El etiquetado de datos dentro de estas visualizaciones es crítico para la interpretación, ya que las etiquetas brindan una visión general de la proyección y guían la navegación del usuario. Sin embargo, la mayoría de los métodos para producir etiquetas requieren clusterizar los puntos, lo que puede ser computacionalmente costoso a medida que crece el número de puntos. En este artículo describimos un enfoque eficiente de clustering que utiliza estimación de densidad por kernel (KDE) en el espacio 2D proyectado, en lugar de operar sobre los puntos. Este algoritmo puede producir regiones de clusters de alta calidad a partir de un mapa de densidad 2D en unos pocos cientos de milisegundos, órdenes de magnitud más rápido que los enfoques actuales. Contribuimos con el diseño del algoritmo, benchmarks y aplicaciones que demuestran su utilidad, incluyendo etiquetado y resumen.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Embeddings Atlas</span>"
+    ]
+  },
+  {
+    "objectID": "ren-2025.html#preguntas-de-investigación-hipótesis",
+    "href": "ren-2025.html#preguntas-de-investigación-hipótesis",
+    "title": "9  Embeddings Atlas",
+    "section": "9.3 Preguntas de Investigación / Hipótesis",
+    "text": "9.3 Preguntas de Investigación / Hipótesis\n\n¿Puede un algoritmo de clustering que opera sobre un mapa de densidad 2D (KDE) generar regiones de clusters “de calidad” para proyecciones de embeddings, manteniendo coherencia visual con la percepción humana? (inferida)\n\n¿Qué ganancias de rendimiento (tiempo) se obtienen al clusterizar densidad 2D en vez de puntos, en datasets desde decenas de miles hasta millones de elementos, manteniendo resultados comparables a métodos escalables basados en puntos? (inferida)",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Embeddings Atlas</span>"
+    ]
+  },
+  {
+    "objectID": "ren-2025.html#metodología",
+    "href": "ren-2025.html#metodología",
+    "title": "9  Embeddings Atlas",
+    "section": "9.4 Metodología",
+    "text": "9.4 Metodología\n\n9.4.1 Flujo de trabajo\n\nProyectar embeddings de alta dimensión a 2D (p.ej., UMAP con distancia coseno).\n\nConstruir un mapa de densidad 2D de la proyección mediante KDE (con técnicas eficientes de binning/aproximación; el paper reporta un cómputo de KDE en GPU/WebGL).\n\nClusterizar el mapa de densidad (pixeles) usando un procedimiento en tres etapas: (i) división en regiones por “hill-climbing” hacia máximos locales, (ii) fusión (union) de regiones “triviales” cercanas a bordes, y (iii) truncamiento por umbral relativo de densidad para limpiar límites.\n\n(Post-proceso) Convertir el mapa de clusters a polígonos (p.ej., con un trazado tipo Suzuki) para visualización y/o consultas.\n\n(Aplicación demostrada) Generar etiquetas por cluster: aproximar polígonos por rectángulos no solapados y traducirlos a consultas SQL; aplicar c-TF-IDF para etiquetas en texto.\n\n\n\n\nExplicación del Algoritmo\n\n\n\n\n9.4.2 Modelos / Algoritmos\n\nProyección: UMAP (mencionado explícitamente en ejemplos) con distancia coseno.\n\nDensidad: KDE 2D sobre la proyección (implementación reportada en GPU/WebGL para benchmarking).\n\nClustering propuesto (sobre densidad):\n\nInicialización por máximos locales: cada píxel asciende al vecino de mayor densidad hasta un máximo local; agrupa píxeles por máximo alcanzado (disjoint set / union-find).\n\nFusión de clusters: usando un grafo de vecindad entre regiones; criterio: si el máximo local del cluster está muy cerca del borde, fusionar con el vecino correspondiente (greedy por prioridad).\n\nTruncamiento: eliminar píxeles con densidad menor a dmin(c) = max_density(c) × factor (factor 0.1 en el paper).\n\n\nBaselines comparados: supercluster (Mapbox; variante rápida tipo DBSCAN), y discusión de DBSCAN/HDBSCAN/OPTICS/Mean Shift (scikit-learn) como demasiado lentos en su setting.\n\n\n\n\nPseudo Código del Algoritmo\n\n\n\n\n9.4.3 Datos\nEl trabajo evalúa el algoritmo sobre proyecciones 2D de embeddings en tres datasets representativos, cubriendo texto e imágenes y escalas desde 63k hasta 1.28M puntos. Los embeddings se proyectan (ejemplos) con UMAP y distancia coseno, luego se estima un mapa de densidad (e.g., 1000×1000 píxeles) sobre el cual se ejecuta el clustering. Además, para demostrar utilidad en etiquetado, se usa UltraChat-200k y se generan etiquetas por cluster mediante consultas SQL y c-TF-IDF en un entorno web (DuckDB WebAssembly).\n\n\n\n\n\n\n\n\nTipo\nFuente\nCobertura temporal\n\n\n\n\nImágenes (ImageNet-1k; 1.28M puntos)\nImageNet Large Scale Visual Recognition Challenge\nN/A\n\n\nTexto (ACL Abstracts; 63k puntos)\nColección de abstracts ACL (referenciada en el paper)\nN/A\n\n\nTexto conversacional (UltraChat-200k; 200k puntos)\nHuggingFace (UltraChat-200k)\nN/A\n\n\n\n\n\n9.4.4 Validación & Uncertainties\nLa evaluación se centra en (i) rendimiento (tiempo de clustering) sobre tres datasets, (ii) calidad mediante comparación visual/cualitativa con un baseline escalable (supercluster), y (iii) utilidad demostrando un pipeline de etiquetado y resumen de clusters (c-TF-IDF vía SQL). No se reportan métricas estándar de “calidad de clustering” (p.ej., NMI/ARI/silhouette) ni validación cuantitativa de etiquetas; el énfasis es pragmático (interactividad, velocidad, resultados visualmente comparables).\n\n\n\nComparación del Algoritmo propuesto con Supercluster de Mapbox.\n\n\n\n\n\n\n\n\n\n\n\nMétrica\nValor\nAlcance\nNotas\n\n\n\n\nTiempo de clustering (Ours)\n55 ms\nACL Abstracts (63k puntos)\nSobre mapa de densidad 1000×1000.\n\n\nTiempo de clustering (Ours)\n52 ms\nUltraChat-200k (200k puntos)\nSobre mapa de densidad 1000×1000.\n\n\nTiempo de clustering (Ours)\n55 ms\nImageNet-1k (1.28M puntos)\nSobre mapa de densidad 1000×1000; número de puntos es irrelevante una vez estimada la densidad.\n\n\nTiempo KDE (GPU/WebGL)\n+41 ms\nACL Abstracts\nReportado como tiempo adicional para calcular KDE desde puntos 2D.\n\n\nTiempo KDE (GPU/WebGL)\n+32 ms\nUltraChat-200k\nReportado como tiempo adicional para calcular KDE desde puntos 2D.\n\n\nTiempo KDE (GPU/WebGL)\n+35 ms\nImageNet-1k\nReportado como tiempo adicional para calcular KDE desde puntos 2D.\n\n\nTiempo supercluster\n269 ms\nACL Abstracts\nClustering sobre puntos 2D.\n\n\nTiempo supercluster\n913 ms\nUltraChat-200k\nClustering sobre puntos 2D.\n\n\nTiempo supercluster\n5611 ms\nImageNet-1k\nClustering sobre puntos 2D.\n\n\nTiempo total (clustering+KDE)\n~80–100 ms\nGeneral\nEl paper sugiere que este rango podría ser usable en aplicaciones interactivas.\n\n\nEtiquetado (c-TF-IDF vía SQL)\n~36 s\nUltraChat-200k\nGeneración de etiquetas para 250 clusters (con dos niveles de zoom) usando DuckDB WASM.\n\n\n\n\n\n9.4.5 Replicabilidad & Recursos\n\n\n\n\n\n\n\n\nÍtem\nSí/No\nDetalle\n\n\n\n\nCódigo disponible\nSí\nImplementación open-source: embedding-atlas (Apple) en GitHub.\n\n\nDatos disponibles\nSí\nDatasets mencionados son públicos (ImageNet-1k, ACL Abstracts, UltraChat-200k).\n\n\nParámetros reproducibles\nParcial\nSe describen factores clave (p.ej., umbral 0.1 para truncamiento); detalles completos de KDE/bandwidth y configuración de proyección pueden requerir revisar código/demo.\n\n\nImplementación descrita\nSí\nRust + compilación a WebAssembly para uso web; KDE reportado con GPU/WebGL en benchmarks.\n\n\nDemo / herramienta\nSí\nSe menciona demo interactivo y viewer web para etiquetado (DuckDB WebAssembly).",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Embeddings Atlas</span>"
+    ]
+  },
+  {
+    "objectID": "ren-2025.html#resultados-clave",
+    "href": "ren-2025.html#resultados-clave",
+    "title": "9  Embeddings Atlas",
+    "section": "9.5 Resultados Clave",
+    "text": "9.5 Resultados Clave\n\nEl algoritmo clusteriza un mapa de densidad 2D de 1000×1000 en ~52–55 ms en tres datasets (63k, 200k, 1.28M puntos), con complejidad dominada por el número de píxeles, no por el número de puntos.\n\nEn comparación, supercluster tarda 269 ms (63k), 913 ms (200k) y 5611 ms (1.28M). A escala 200k, el paper reporta ~10× de mejora en velocidad con calidad visual similar.\n\nIncluyendo el cálculo de KDE en GPU/WebGL, el tiempo combinado reportado es ~80–100 ms, apuntando a uso interactivo.\n\nEn la demostración de etiquetado, generar etiquetas c-TF-IDF por SQL para ~250 clusters (2 niveles de zoom) en UltraChat-200k toma ~36 s (costo del resumen/etiquetado, no del clustering).",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Embeddings Atlas</span>"
+    ]
+  },
+  {
+    "objectID": "ren-2025.html#discusión",
+    "href": "ren-2025.html#discusión",
+    "title": "9  Embeddings Atlas",
+    "section": "9.6 Discusión",
+    "text": "9.6 Discusión\n\nContribuciones:\n\nPropone un método rápido y escalable para clustering en proyecciones de embeddings operando en densidad 2D (KDE) en lugar de puntos.\n\nDescribe el algoritmo (regiones por máximos locales + fusión + truncamiento), análisis de complejidad y benchmarks comparativos.\n\nMuestra aplicaciones para etiquetado y resumen: polígonos → consultas SQL → c-TF-IDF.\n\n\nLimitaciones:\n\nProduce una lista plana de clusters (sin jerarquía explícita); para multiescala se sugiere ejecutar con múltiples bandwidths, pero sin relación jerárquica formal.\n\nNo incorpora metadatos categóricos (solo clusteriza un mapa de densidad único).\n\nEstá limitado al espacio proyectado 2D: puede alinearse con percepción humana, pero no garantiza fidelidad a clusters en alta dimensión.\n\n\nFuturo:\n\nDesarrollar clustering jerárquico multiescala con relaciones consistentes entre niveles.\n\nExtender el método para considerar variables categóricas/metadata al formar clusters.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Embeddings Atlas</span>"
+    ]
+  },
+  {
+    "objectID": "ren-2025.html#aplicabilidad-en-chile",
+    "href": "ren-2025.html#aplicabilidad-en-chile",
+    "title": "9  Embeddings Atlas",
+    "section": "9.7 Aplicabilidad en Chile",
+    "text": "9.7 Aplicabilidad en Chile\n\n\n\n\n\n\n\nAspecto\nEvaluación\n\n\n\n\nExploración territorial con embeddings\nAlta: útil para explorar grandes colecciones de embeddings (p.ej., parches de imágenes satelitales de Chile, POIs, Delitos), proyectarlas a 2D y generar regiones/etiquetas rápidamente para análisis exploratorio.\n\n\nIntegración con SIG / consultas espaciales\nMedia–Alta: los clusters como polígonos 2D facilitan consultas tipo “range query” y agregación; habría que mapear estos polígonos al contexto SIG (nota: son polígonos en el espacio de proyección, no geográficos).\n\n\nInterpretabilidad para tomadores de decisión\nMedia: mejora navegación/overview y permite etiquetado; sin embargo, la interpretación depende de la calidad del embedding/proyección y de la semántica del etiquetado (especialmente en dominios territoriales).\n\n\nRiesgos / sesgos\nMedia: al operar en 2D, la proyección puede distorsionar relaciones; los clusters reflejan estructura proyectada, no necesariamente estructura “real” del fenómeno territorial.\n\n\nCostos de adopción\nBaja–Media: código abierto y orientado a web (Rust/WASM), pero requiere pipeline de embeddings + proyección + KDE y (si se desea) infraestructura de etiquetado/DB.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Embeddings Atlas</span>"
+    ]
+  },
+  {
+    "objectID": "ren-2025.html#madurez-evidencia",
+    "href": "ren-2025.html#madurez-evidencia",
+    "title": "9  Embeddings Atlas",
+    "section": "9.8 Madurez & Evidencia",
+    "text": "9.8 Madurez & Evidencia\n\n\n\n\n\n\n\nEje\nNivel\n\n\n\n\nEvidencia empírica (benchmarks)\nMedia–Alta\n\n\nEscalabilidad / rendimiento\nAlta\n\n\nValidación de calidad de clustering\nMedia (principalmente cualitativa vs. baseline)\n\n\nDisponibilidad de implementación\nAlta (open-source)\n\n\nTransferibilidad a dominios territoriales\nMedia (requiere embeddings/proyecciones adecuadas)",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Embeddings Atlas</span>"
+    ]
+  },
+  {
+    "objectID": "ren-2025.html#impacto-en-políticas-públicas-ods",
+    "href": "ren-2025.html#impacto-en-políticas-públicas-ods",
+    "title": "9  Embeddings Atlas",
+    "section": "9.9 Impacto en Políticas Públicas / ODS",
+    "text": "9.9 Impacto en Políticas Públicas / ODS\n\nPotencial habilitador (indirecto): al acelerar la clusterización y el etiquetado de proyecciones de embeddings, el enfoque puede facilitar sistemas de análisis exploratorio para grandes repositorios de datos relevantes para políticas públicas (p.ej., monitoreo ambiental, clasificación de reportes ciudadanos, análisis de documentos normativos). Su contribución es metodológica/infraestructural (visual analytics) más que un caso aplicado a un ODS específico, por lo que el impacto depende del caso de uso que se implemente (p.ej., ODS 11 ciudades sostenibles, ODS 13 acción por el clima, ODS 15 vida de ecosistemas terrestres).\n\n\n\n\n\nRen, Donghao, Fred Hohman, and Dominik Moritz. 2025. “A Scalable Approach to Clustering Embedding Projections.” arXiv Preprint arXiv:2504.07285.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Embeddings Atlas</span>"
     ]
   }
 ]

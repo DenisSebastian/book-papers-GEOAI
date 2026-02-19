@@ -267,6 +267,33 @@
             "title": "The hierarchical morphotope classification: A theory-driven framework for large-scale analysis of built form",
             "title-short": "The hierarchical morphotope classification",
             "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Ren",
+                    "given": "Donghao"
+                },
+                {
+                    "family": "Hohman",
+                    "given": "Fred"
+                },
+                {
+                    "family": "Moritz",
+                    "given": "Dominik"
+                }
+            ],
+            "container-title": "arXiv preprint arXiv:2504.07285",
+            "id": "ren2025scalable",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "title": "A scalable approach to clustering embedding projections",
+            "type": "article-journal"
         }
     ],
     "project_biblios": [
